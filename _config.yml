@@ -1,10 +1,10 @@
 # Site settings
-title: Inception | Code | Existence
+title: Code Frees
 header-img: img/home-bg.png
 email: sushi@pathworks.co
 copyright_name: schanrai
 description: > # this means to ignore newlines until "baseurl:"
-  Inception | Code | Existence
+  Because coding frees your mind, body & soul
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: Tominagirl
 github_username:  schanrai
