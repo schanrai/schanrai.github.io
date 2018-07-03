@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Learning to Learn"
-date:       2018-07-03 21:28:58 +0000
+date:       2018-07-03 17:28:59 -0400
 permalink:  learning_to_learn
 ---
 
@@ -94,5 +94,5 @@ However, there may be times when you need a little more practice to really get t
 
 The more you understand, the less you have to memorize. It can be tempting to just jam through the lessons that only require you to read the material. Don’t just read....stop and think.... the more deeply your brain is forced to think the more information it absorbs and retains.
 
-Above all, remember that everything worth doing takes time - so be patient, play around and enjoy the journey - you’ll remember those Git commands better! 
+Above all, remember that everything worth doing takes time - so be patient, play around and enjoy the journey - you’ll remember those Git commands better!&#x2028;
 
