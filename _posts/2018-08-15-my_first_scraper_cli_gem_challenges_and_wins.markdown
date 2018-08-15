@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "My first Scraper CLI Gem | Challenges and Wins"
-date:       2018-08-15 10:43:21 +0000
+date:       2018-08-15 06:43:22 -0400
 permalink:  my_first_scraper_cli_gem_challenges_and_wins
 ---
 
@@ -226,4 +226,6 @@ At this stage, I have no idea whether I will be asked to refactor large parts of
 Sometimes, being out there on your own is the best thing you can do for your confidence, personal and professional development. 
 
 You can take a look at my project code [here](https://github.com/schanrai/sgrind-cli-app) and watch my video walkthrough [here](https://drive.google.com/open?id=19YKwAqkunX5stQUZYO1KmrvS5aIrDcfy).
+
+
 
