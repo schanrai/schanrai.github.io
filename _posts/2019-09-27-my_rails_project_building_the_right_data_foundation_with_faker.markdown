@@ -118,7 +118,7 @@ Overall, Faker proved to not be the time-saving utility I hope it would be on th
 I believe that you can leverage it to save development time if you use it judiciously, paying close attention to your business logic and it's impacts on your data rules.
 
 
-You check out my project via this [video walkthrough](https://youtu.be/1I2UA-P8Md0) or find my repo [here](https://github.com/schanrai/VanillaForum).
+You check out my project via this [video walkthrough](https://youtu.be/kd_frXRarXU) or find my repo [here](https://github.com/schanrai/VanillaForum).
 
 
 
