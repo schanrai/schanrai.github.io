@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "My Rails Project: Building the right data foundation with Faker"
-date:       2019-09-27 17:07:54 +0000
+date:       2019-09-27 13:07:55 -0400
 permalink:  my_rails_project_building_the_right_data_foundation_with_faker
 ---
 
@@ -118,7 +118,7 @@ Overall, Faker proved to not be the time-saving utility I hope it would be on th
 I believe that you can leverage it to save development time if you use it judiciously, paying close attention to your business logic and it's impacts on your data rules.
 
 
-You check out my project via this video **walkthrough** or find my repo **here**.
+You check out my project via this [video walkthrough](https://youtu.be/1I2UA-P8Md0) or find my repo [here](https://github.com/schanrai/VanillaForum).
 
 
 
