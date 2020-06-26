@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Self-referential class variables in OOJS applications"
-date:       2020-06-26 04:33:11 +0000
+date:       2020-06-26 00:33:12 -0400
 permalink:  self-referential_class_variables_in_oojs_applications
 ---
 
