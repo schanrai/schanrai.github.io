@@ -6,13 +6,13 @@ permalink:  self-referential_class_variables_in_oojs_applications
 ---
 
 
-You’ve all heard it before - global variables are evil! A surefire route spaghetti-code hell and bugville bentral….not to mention a dead giveaway of a beginner's mindset.
+You’ve all heard it before - global variables are evil! A surefire route spaghetti-code hell and bugville central….not to mention a dead giveaway of a beginner's mindset.
 
-When we talk of a global variable in Javascript, we are describing an entity which [”declared outside a function, becomes GLOBAL….it has global scope: All scripts and functions on a web page can access it”](https://www.w3schools.com/js/js_scope.asp). The quality and appeal of a global variable essentially, is universal accessibility. 
+When we talk of a global variable in Javascript, we are describing an entity which [”declared outside a function, becomes GLOBAL….it has global scope: All scripts and functions on a web page can access it”](https://www.w3schools.com/js/js_scope.asp). Essentially, the quality and appeal of a global variable is universal accessibility. 
 
 ## Freedom has a cost
 
-Unfettered freedom of access usually comes at a cost, and this is no different when dealing with global variables. The most problematic issues that occur through global variable usage are:
+Unfettered freedom of access usually comes at a cost, and this is no different when dealing with global variables. The most problematic issues that occur with global variable usage are:
 
 **Naming collisions **
 
@@ -25,6 +25,24 @@ The name ‘color’, for example, is an example of this, it is a generic plain 
 The Object-Oriented concept of “encapsulation” - where we organize data and functions within a common enclosed entity that has boundaries and controlled access - is absolutely threatened by the usage of global variables. 
 
 Global variables break the protections afforded by ‘encapsulation’ with their ease of redefinition. In the process of running an application that has a globablly mutable state, it is all too easy to affect that state and permanently alter it without transmitting that change to other dependencies in the codebase.
+
+This is demonstrated below, where calling the `toString` function with the argument of the global variable `num`, will change the value and type of `num` to a string. Consequently, calling `addOne` would then throw an error because `num` is no longer a number, and therefore cannot be added to 1.
+
+```
+let num = 4
+
+function addOne(num){
+  return num + 1
+}
+
+function toString(item){
+  item = "string" 
+}
+
+toString(num)
+```
+
+
 
 ## Best practices for avoiding globals
 
